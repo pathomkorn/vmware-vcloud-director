@@ -25,3 +25,12 @@ http://pubs.vmware.com/Release_Notes/en/vcd/8-10/rel_notes_vcloud_director_8-10.
 
 ## Installation
 * https://www.vmware.com/support/pubs/vcd_sp_pubs.html
+
+## Comparing with OpenStack
+* OpenStack's security group done on NSX edge
+* OpenStack's stack = vCD's vApp
+* vCD's network should predefine network segment 1 of 3 options belows due to NSX edge design: http://pubs.vmware.com/vcd-810/index.jsp#com.vmware.vcloud.admin.doc_810/GUID-75BEEF03-6176-47A1-9D6E-8C7A305DD649.html
+ * External organization virtual datacenter network - direct connection
+ * External organization virtual datacenter network - NAT-routed connection
+ * Internal organization virtual datacenter network
+* vCD can set VM's administrator password after provisioning using its guest customization feature
