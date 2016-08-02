@@ -34,4 +34,5 @@ http://pubs.vmware.com/Release_Notes/en/vcd/8-10/rel_notes_vcloud_director_8-10.
  * External organization virtual datacenter network - NAT-routed connection
  * Internal organization virtual datacenter network
 * vCD may consume external IP addresses than OpenStack because vCD has to define suballocate IP pools on an edge gateway per organization rather than using one IP pools in OpenStack
+* OpenStack is easier when connecting internal network to external network due to using only securiy group feature while vCD has to setup SNAT, DNAT policy which is complex to server engineer
 * vCD can set VM's administrator password after provisioning using its guest customization feature
