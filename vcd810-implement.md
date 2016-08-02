@@ -30,7 +30,7 @@ http://pubs.vmware.com/Release_Notes/en/vcd/8-10/rel_notes_vcloud_director_8-10.
 * OpenStack's security group and network virtualization (SDN) done on NSX edge
 * OpenStack's stack = vCD's vApp
 * vCD's network should predefine network segment as 1 of 3 options below due to NSX edge design
-* http://pubs.vmware.com/vcd-810/index.jsp#com.vmware.vcloud.admin.doc_810/GUID-75BEEF03-6176-47A1-9D6E-8C7A305DD649.html
+ * http://pubs.vmware.com/vcd-810/index.jsp#com.vmware.vcloud.admin.doc_810/GUID-75BEEF03-6176-47A1-9D6E-8C7A305DD649.html
  * External organization virtual datacenter network - direct connection
  * External organization virtual datacenter network - NAT-routed connection
  * Internal organization virtual datacenter network
